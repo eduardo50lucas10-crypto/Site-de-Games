@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GameHub 🎮</title>
+
+
+<style>
+
+
+body{
+
+margin:0;
+
+font-family:Arial;
+
+background:#0d1117;
+
+color:white;
+
+}
+
+
+
+header{
+
+background:#161b22;
+
+padding:20px;
+
+text-align:center;
+
+}
+
+
+
+header h1{
+
+color:#3fb950;
+
+}
+
+
+
+
+.banner{
+
+margin:20px;
+
+padding:40px;
+
+background:#21262d;
+
+border-radius:15px;
+
+text-align:center;
+
+}
+
+
+
+
+
+.jogos{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:20px;
+
+padding:20px;
+
+}
+
+
+
+
+
+.card{
+
+background:#161b22;
+
+width:220px;
+
+padding:20px;
+
+border-radius:15px;
+
+text-align:center;
+
+}
+
+
+
+
+
+button{
+
+background:#3fb950;
+
+color:white;
+
+border:0;
+
+padding:12px 20px;
+
+border-radius:8px;
+
+cursor:pointer;
+
+}
+
+
+
+
+
+button:hover{
+
+background:#2ea043;
+
+}
+
+
+
+
+
+canvas{
+
+border:3px solid #3fb950;
+
+background:black;
+
+}
+
+
+
+
+
+#corrida{
+
+display:flex;
+
+justify-content:center;
+
+}
+
+
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+
+<header>
+
+<h1>🎮 GameHub</h1>
+
+<p>Jogos online grátis</p>
+
+</header><div class="banner">
+
+
+<h2>Bem-vindo ao GameHub!</h2>
+
+
+<p>Escolha um jogo e divirta-se.</p>
+
+
+</div>
+
+
+
+
+
+<div class="jogos">
+
+
+
+
+
+<div class="card">
+
+
+<h2>🐍 Snake</h2>
+
+
+<p>Jogo da cobrinha</p>
+
+
+<button onclick="abrirSnake()">
+
+
+Jogar
+
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h2>🏓 Pong</h2>
+
+
+<p>Jogo de raquete</p>
+
+
+<button onclick="abrirPong()">
+
+
+Jogar
+
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h2>🏎️ Racing 3D</h2>
+
+
+<p>Corrida em 3D</p>
+
+
+<button onclick="abrirCorrida()">
+
+
+Jogar
+
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h2>🧠 Memória</h2>
+
+
+<p>Em breve</p>
+
+
+</div>
+
+
+
+
+
+
+</div><script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
