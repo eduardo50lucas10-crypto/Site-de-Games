@@ -1,3 +1,4 @@
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
@@ -5,4 +6,9 @@
     <loc>https://eduardo50lucas10-crypto.github.io/Site-de-Games/</loc>
   </url>
 
+  <url>
+    <loc>https://eduardo50lucas10-crypto.github.io/Site-de-Games/Game%20Hub/index.html</loc>
+  </url>
+
 </urlset>
+```
