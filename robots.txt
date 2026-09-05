@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eduardo50lucas10-crypto.github.io/Site-de-Games/sitemap.xml
